@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/*Common
+-------------------------------------*/
+body{
+  color: #555555;
+  font-size: 16px;
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  line-height: 1.8;
+}
+
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: #C0C0C0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.inner{
+  width: 92%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 60px;
+}
+
+.nav-global ul{
+  display: flex;
+}
+
+.nav-global li{
+  margin-left: 60px;
+}
+
+.category-title{
+  margin-top: 150px;
+  color:#C0C0C0;
+  font-weight: bold;
+}
+
+.nav-categories ul{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.nav-categories li{
+  margin-left: 50px;
+}
+
+/* contents */
+.contents{
+  margin-bottom: 100px;
+}
+
+/* post */
+.post-all{
+  margin-bottom: 60px;
+}
+
+.post{
+  margin-top: 100px;
+}
+
+.post2{
+  margin:100px 0 0 50px;
+}
+
+h3{
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.post-title{
+  margin-top: 10px;
+}
+
+.post-date{
+  color: #555555;
+  font-weight: bold;
+}
+
+.category{
+  color: #C0C0C0;
+  font-weight: bold;
+}
+
+.post-btn{
+  display: block;
+  width: 150px;
+  margin: 30px 0 0 auto;
+  padding: 5px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #EB8686;
+  border-radius: 15px;
+}
+
+.post-btn:hover{
+  color: #EB8686;
+  background-color: #fff;
+  border: 2px solid #EB8686;
+}
+
+.nav-page{
+  margin-top: 150px;
+}
+
+.nav-page ul{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-page a{
+  display: block;
+  margin: 0 5px;
+  padding: 3px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-page a:hover{
+  color: #6088C6;
+  text-decoration: none;
+}
+
+.nav-page2 ul{
+  display: flex;
+  margin: 200px 0 0 250px;
+}
+
+.nav-page2 li{
+  margin-left: 50px;
+}
+
+.nav-page2 a:hover{
+  color: #6088C6;
+  text-decoration: none;
+}
+
+
+.nav-page2 a{
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* footer */
+footer{
+  padding: 30px 0;
+  background-color: #6088C6;
+  color: #fff;
+  text-align: right;
+}
+
+/* about */
+.about{
+  margin: 150px 0 300px 330px;
+}
+
+.profile-pic{
+  margin-left: 60px;
+}
+
+.profile-title{
+  font-size: 30px;
+  margin: 0 0 30px 100px;
+}
+
+.profile-item{
+  display: flex;
+}
+
+.profile-item dt{
+  font-weight: bold;
+  font-size: 20px;
+}
+.profile-item dd{
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+
+
+/*MediaQuery
+-------------------------------------*/
+@media (min-width:800px){
+
+  .contents{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .post-all{
+    width: 64%;
+    margin-bottom: 0;
+  }
+
+}
